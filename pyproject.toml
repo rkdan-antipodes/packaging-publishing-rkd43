@@ -1,0 +1,21 @@
+[project]
+name = "workshop"
+version = "0.1.0"
+description = "A basic model to predict cancerous tumors based on certain properties."
+authors = [{name = "Ryan Daniels"}]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.50.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.9.0",
+    "flake8>=7.3.0",
+    "isort>=7.0.0",
+]
